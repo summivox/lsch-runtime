@@ -1,0 +1,26 @@
+{
+  "name": "lsch-runtime",
+  "version": "0.0.0",
+  "description": "The Livescript Shell -- core runtime module",
+  "author": {
+    "name": "summivox",
+    "email": "summivox@gmail.com",
+    "url": "github.com/summivox"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "repository": "summivox/lsch-runtime",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "cross-spawn-async": "^2.1.9",
+    "fs-extra": "^0.26.5",
+    "isexe": "^1.1.2",
+    "isstream": "^0.1.2",
+    "mississippi": "^1.2.0",
+    "simple-is": "^0.2.0",
+    "which": "^1.2.4"
+  }
+}
